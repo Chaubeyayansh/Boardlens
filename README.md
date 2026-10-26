@@ -1,14 +1,18 @@
-# BoardLens — starter project
+# BoardLens — CBSE Class 10 Starter
 
-A simple mobile-friendly CBSE Class 10 study website demo.
+A responsive React + TypeScript + Vite starter for a CBSE Class 10 study workspace.
 
-## Files
-- `index.html` — page structure
-- `style.css` — appearance and mobile layout
-- `app.js` — practice questions, answer feedback, and mistake tracker
+Includes a dashboard, searchable original practice examples, show/hide solutions, completion checklist, mistake book, and a GitHub Pages workflow.
 
-## Important
-The three Maths questions are original sample questions, **not official CBSE previous-year questions**. Verify every official PYQ before publishing it. Progress is stored only in the current browser/device. This is a starter demo, not a complete production platform. BoardLens is independent and not affiliated with CBSE.
+**Important:** This is a starter edition, not the complete advanced Google AI Studio application. The questions are original demonstration examples, not verified official CBSE PYQs.
 
-## Publish with GitHub Pages
-Upload all four files to the root of your `main` branch. In the repository, open **Settings → Pages**, choose **Deploy from a branch**, select `main` and `/(root)`, then save if those options are available. Wait for the published URL to appear in Pages settings.
+## GitHub Pages
+1. Upload all files and folders to the repository's `main` branch.
+2. In Settings → Pages, set Source to **GitHub Actions**.
+3. Open Actions and check the `Deploy BoardLens to GitHub Pages` workflow.
+4. Vite is configured to use `/Boardlens/` in production.
+
+## Local development
+Requires Node.js. Run `npm install`, `npm run dev`; use `npm run build` to build.
+
+Never add API keys or secrets to frontend code or commit them to GitHub.
